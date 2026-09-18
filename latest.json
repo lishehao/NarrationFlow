@@ -1,0 +1,56 @@
+{
+  "name": "anything-to-explainer",
+  "version": "1.8.1-rc.1",
+  "repository_full_name": "lishehao/lishehao",
+  "release_root": "tools/anything-to-explainer/releases/1.8.1-rc.1",
+  "mirror_scope": "cross-thread recovery core; full source remains in the Skill/source package",
+  "required_text_files": [
+    "SKILL.md",
+    "SYNC_CONTEXT.md",
+    "references/github-canonical-sync.md"
+  ],
+  "recommended_reference_files": [
+    "references/light-keynote-and-teaching-attention.md",
+    "references/scrimba-pointer-and-canva-adapter.md",
+    "references/platform-optimization-v1.6.md",
+    "references/plugin-architecture.md"
+  ],
+  "files": {
+    "SKILL.md": {
+      "sha256": "83a31291b546b0459933cb05efe5da7a4324526cd3ac5860d92763db23a3ccfa",
+      "bytes": 15890
+    },
+    "SYNC_CONTEXT.md": {
+      "sha256": "387402a1cb27b23b0907b24c71938c384b3b1b15aa054debec501dd7d7775590",
+      "bytes": 2214
+    },
+    "MANIFEST.json": {
+      "sha256": "2bf4f0401a1c65871d6fe6f30bd2dba38406e79c9c149e1e02ec6ed651248dc0",
+      "bytes": 2754
+    },
+    "VERSION": {
+      "sha256": "e22087c80b57fb76203d01e4e401abbda5bc1021a3100c25f50aadf3426b3561",
+      "bytes": 11
+    },
+    "references/github-canonical-sync.md": {
+      "sha256": "a6f63d139ca02443d6c0be1bfc317203c2d4e9cf804f0c0ff7d87e9200e8ca68",
+      "bytes": 2724
+    },
+    "references/light-keynote-and-teaching-attention.md": {
+      "sha256": "b6b5a6cc16b9e6d8b97031e66f0d5306b91642d88cd7341732a072fab41e391a",
+      "bytes": 2103
+    },
+    "references/scrimba-pointer-and-canva-adapter.md": {
+      "sha256": "900df68696c56795622a94ab35211bada739dab4a6f1af319921d95fcf365385",
+      "bytes": 5938
+    },
+    "references/platform-optimization-v1.6.md": {
+      "sha256": "10c7948d16b9d34fa96a72647bfe287bab129c75949de0490d8c2a373d366f2d",
+      "bytes": 7316
+    },
+    "references/plugin-architecture.md": {
+      "sha256": "18e9a390e4bd1c3ee496ee752e081eff1e5bb016334d0a87ddf702648ea76e79",
+      "bytes": 2303
+    }
+  }
+}
