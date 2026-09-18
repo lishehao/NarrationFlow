@@ -1,7 +1,7 @@
 {
-  "name": "Anything to Explainer",
+  "name": "NarrationFlow",
   "slug": "anything-to-explainer",
-  "version": "1.8.1-rc.1",
+  "version": "1.8.2-rc.1",
   "entrypoint": "SKILL.md",
   "language": [
     "zh",
@@ -48,7 +48,7 @@
     "role-cover",
     "all-compatible"
   ],
-  "release_status": "light-keynote-human-teaching-attention-rc",
+  "release_status": "production-polish-gate-rc",
   "teaching_system": true,
   "legacy_backend_preserved": true,
   "legacy_matrix_scope": "v1.4 backend declarations; not a native teaching integration certification",
@@ -89,5 +89,16 @@
     "spotlight",
     "reveal"
   ],
-  "pointer_anchor_support": true
+  "pointer_anchor_support": true,
+  "production_polish_gate": true,
+  "production_minimum_resolution": {
+    "16:9": "1920x1080",
+    "9:16": "1080x1920",
+    "4:5": "1080x1350",
+    "3:4": "1080x1440",
+    "1:1": "1080x1080",
+    "4:3": "1440x1080"
+  },
+  "production_cursor_preferred_fps": 60,
+  "production_h264_preferred_crf": "17-20"
 }
