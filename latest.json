@@ -1,9 +1,9 @@
 {
   "name": "anything-to-explainer",
   "product_name": "NarrationFlow",
-  "version": "1.8.1-rc.1",
+  "version": "1.8.2-rc.1",
   "repository_full_name": "lishehao/NarrationFlow",
-  "release_root": "releases/1.8.1-rc.1",
+  "release_root": "releases/1.8.2-rc.1",
   "bootstrap": "BOOTSTRAP.md",
   "mirror_scope": "dedicated canonical cross-thread recovery repository",
   "required_text_files": [
@@ -15,6 +15,7 @@
     "references/light-keynote-and-teaching-attention.md",
     "references/scrimba-pointer-and-canva-adapter.md",
     "references/platform-optimization-v1.6.md",
-    "references/plugin-architecture.md"
+    "references/plugin-architecture.md",
+    "references/production-polish-gate.md"
   ]
 }
