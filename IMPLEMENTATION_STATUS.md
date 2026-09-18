@@ -1,6 +1,7 @@
 # Implementation Status — v1.8.1-rc.1
 
 ## Implemented and regression-tested
+- Production Polish Gate with 1080-class minimums, H.264 quality checks, typography floor, annotation frequency, cursor occlusion, transition continuity and encoded-output review requirements.
 - Light Keynote theme tokens and visual constraints.
 - Six slide archetypes as a constrained composition layer.
 - Narration-owned Attention contract with cursor, pen, spotlight and reveal.
