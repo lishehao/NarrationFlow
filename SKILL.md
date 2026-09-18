@@ -3,7 +3,7 @@ name: anything-to-explainer
 description: Plan and produce narration-first explainer videos with a unified teaching visual system and host-aware execution profiles for ChatGPT Chat, ChatGPT Work, Codex, Claude Code, and local runtimes. Use for educational videos, product teardowns, documents, code or math explanations, Mermaid-style diagrams, annotated images, scientific mechanisms, data stories, cross-platform handoffs, and render-ready production packages. Normalize optional media providers into semantic scene targets; align pointer, pen, reveal and focus with verified narration cues; preserve evidence, cost and privacy controls, aspect-ratio reflow, and honest fallback when tools are unavailable.
 ---
 
-# Anything to Explainer
+# NarrationFlow
 
 Version: **1.8.1-rc.1 — GitHub Canonical Sync + Light Keynote Visual System + Human Teaching Attention Layer**.
 Status: **Light Keynote visual defaults, six slide archetypes, narration-owned cursor/pen/spotlight/reveal attention, pointer anchors and hot-pluggable template providers are implemented at the planning/reference-renderer layer; native Mermaid, Shiki, KaTeX, Manim and full production renderer adapters remain incomplete**.
@@ -53,7 +53,7 @@ Use Claude Code for terminal/repository production, trusted MCP integrations, lo
 - **Canva is a template/style provider, not the attention clock.** A connected Canva design may supply brand/template references or a presentation shell; it enters rendering only after explicit export/materialization with a receipt.
 - **No fabricated completion.** Contract tests are not native integration tests. A preview is not an MP4; an MP4 is not publication approval.
 - **Cross-platform transfers are hash-bound.** Export a handoff manifest and ZIP; the destination validates every required artifact before resuming.
-- **Cross-thread recovery is GitHub-first when configured.** Conversation files and `/mnt/data` are not assumed to exist in another thread. Resolve the fixed GitHub bootstrap path, verify version metadata, then fetch only the required canonical text artifacts; materialize binaries separately when the host supports it.
+- **Cross-thread recovery is GitHub-first through the dedicated `lishehao/NarrationFlow` repository when configured.** Conversation files and `/mnt/data` are not assumed to exist in another thread. Resolve the fixed GitHub bootstrap path, verify version metadata, then fetch only the required canonical text artifacts; materialize binaries separately when the host supports it.
 - **Account writes remain explicit.** Uploading, publishing, purchasing, sending, scheduling or changing a connected account requires the applicable confirmation and write-capable tool.
 
 ## Production branches
