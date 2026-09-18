@@ -5,7 +5,7 @@ description: Plan and produce narration-first explainer videos with a unified te
 
 # NarrationFlow
 
-Version: **1.8.1-rc.1 — GitHub Canonical Sync + Light Keynote Visual System + Human Teaching Attention Layer**.
+Version: **1.8.2-rc.1 — Production Polish Gate + High-Resolution Delivery + Light Keynote Teaching Attention**.
 Status: **Light Keynote visual defaults, six slide archetypes, narration-owned cursor/pen/spotlight/reveal attention, pointer anchors and hot-pluggable template providers are implemented at the planning/reference-renderer layer; native Mermaid, Shiki, KaTeX, Manim and full production renderer adapters remain incomplete**.
 
 ## Start here
@@ -54,6 +54,7 @@ Use Claude Code for terminal/repository production, trusted MCP integrations, lo
 - **No fabricated completion.** Contract tests are not native integration tests. A preview is not an MP4; an MP4 is not publication approval.
 - **Cross-platform transfers are hash-bound.** Export a handoff manifest and ZIP; the destination validates every required artifact before resuming.
 - **Cross-thread recovery is GitHub-first through the dedicated `lishehao/NarrationFlow` repository when configured.** Conversation files and `/mnt/data` are not assumed to exist in another thread. Resolve the fixed GitHub bootstrap path, verify version metadata, then fetch only the required canonical text artifacts; materialize binaries separately when the host supports it.
+- **Production polish is a blocking gate.** Production-labelled output must pass resolution/encoding, typography, Attention, transition-continuity and encoded-output review checks. Preview resolution is never promoted to production by naming alone.
 - **Account writes remain explicit.** Uploading, publishing, purchasing, sending, scheduling or changing a connected account requires the applicable confirmation and write-capable tool.
 
 ## Production branches
@@ -119,6 +120,29 @@ If export/materialization is unavailable, use the Canva result only as `style_re
 ### Cursor-heavy teaching scenes
 
 Use `templates/cursor_profile.scrimba-like.json` as the starting profile. Interactive HTML previews evaluate at browser refresh through `requestAnimationFrame`; exported MP4 should use 60fps only when the selected renderer explicitly supports it. The required fallback is static focus/spotlight, not a broken or jittering cursor.
+
+## Production Polish Gate
+
+Before final packaging, read `references/production-polish-gate.md` and produce `review/production_polish_report.json`.
+
+Hard defaults for production:
+- 16:9 minimum 1920×1080; 9:16 minimum 1080×1920; other aspect ratios use the 1080-class minimums in the production profile.
+- Cursor/pen-heavy output should be 60fps. 30fps requires a declared simplified/static-focus fallback.
+- H.264 masters prefer CRF 17–20. If bitrate-only at 1080 class, do not accept extremely compressed output; the default profile uses 8 Mbps as the 60fps hard floor and 5 Mbps at 30fps.
+- Prefer 2× internal rendering/downsampling for typography- and vector-heavy scenes when the renderer supports it.
+- Circle annotations are low-frequency gestures. Prefer cursor hover, soft highlight, underline/bracket and path trace first.
+- Blanket crossfade is a fallback. Detect shared semantic objects across scene boundaries and prefer shared-element, morph, focus carry-over or pointer-led transitions.
+- Review the encoded output with a full contact sheet plus motion/transition samples; source-code correctness is not visual QC.
+
+Validate:
+
+```bash
+python3 scripts/validate_production_polish.py \
+  review/production_polish_report.json \
+  --profile templates/production_polish_profile.json
+```
+
+A failed gate blocks the final production label.
 
 ## Host-aware commands
 
@@ -214,6 +238,7 @@ The destination must re-run capability detection and compile its own destination
 | Cross-platform handoff and stage ownership | `references/cross-platform-orchestration.md` |
 | Architecture / teaching visual design | `references/teaching-system-design.md` |
 | Light Keynote + human cursor/pen attention | `references/light-keynote-and-teaching-attention.md` |
+| Production resolution, encoding, annotation and transition QC | `references/production-polish-gate.md` |
 | Provider-specific mapping and native integration contracts | `references/teaching-provider-contracts.md` |
 | Official sources and what is inferred | `references/teaching-source-notes.md` |
 | Implemented vs contract-only | `IMPLEMENTATION_STATUS.md` |
