@@ -2,7 +2,7 @@
 
 Canonical repository: `lishehao/NarrationFlow`
 
-Current release: **1.8.1-rc.1**
+Current release: **1.8.2-rc.1**
 
 ## For a new ChatGPT / Work / Codex / Claude Code thread
 
@@ -17,7 +17,7 @@ Current release: **1.8.1-rc.1**
 
 - Bootstrap: `BOOTSTRAP.md`
 - Latest manifest: `latest.json`
-- Current release: `releases/1.8.1-rc.1/`
+- Current release: `releases/1.8.2-rc.1/`
 
 ## Recovery priority
 
