@@ -239,6 +239,7 @@ The destination must re-run capability detection and compile its own destination
 | Architecture / teaching visual design | `references/teaching-system-design.md` |
 | Light Keynote + human cursor/pen attention | `references/light-keynote-and-teaching-attention.md` |
 | Production resolution, encoding, annotation and transition QC | `references/production-polish-gate.md` |
+| Scrimba Explain + external/custom TTS hybrid retiming | `references/scrimba-hybrid-custom-tts.md` |
 | Provider-specific mapping and native integration contracts | `references/teaching-provider-contracts.md` |
 | Official sources and what is inferred | `references/teaching-source-notes.md` |
 | Implemented vs contract-only | `IMPLEMENTATION_STATUS.md` |
