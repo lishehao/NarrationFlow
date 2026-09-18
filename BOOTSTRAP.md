@@ -1,23 +1,23 @@
-# Anything to Explainer — GitHub Bootstrap
+# NarrationFlow — Cross-thread Bootstrap
 
-This directory is the canonical cross-thread recovery mirror for Anything to Explainer.
+Canonical repository: `lishehao/NarrationFlow`
 
 Current release: **1.8.1-rc.1**
 
 ## For a new ChatGPT / Work / Codex / Claude Code thread
 
-1. Read `latest.json` first.
-2. Fetch the versioned `SKILL.md` and `SYNC_CONTEXT.md` from the release root declared there.
-3. Fetch only the mirrored reference files needed for the current task.
-4. If the current conversation also contains a newer project handoff/ZIP, compare versions and hashes before choosing which state wins.
-5. Never assume files from another thread's `/mnt/data`, browser session, hidden state, or uploads are available here.
-6. GitHub is the canonical text/spec recovery layer. Render assets, secrets, browser login state, full source snapshots and uncommitted project files still require explicit materialization or handoff.
+1. Read `latest.json`.
+2. Read the release `SKILL.md` and `SYNC_CONTEXT.md` declared there.
+3. Read only the references needed for the current task.
+4. Compare versions/hashes before replacing newer local project state.
+5. Never assume another thread's `/mnt/data`, browser session, hidden state, or uploads are available.
+6. GitHub restores canonical text/source state, not browser sessions, secrets, temporary files, or uncommitted runtime state.
 
 ## Fixed paths
 
-- Bootstrap: `tools/anything-to-explainer/BOOTSTRAP.md`
-- Latest manifest: `tools/anything-to-explainer/latest.json`
-- Current release: `tools/anything-to-explainer/releases/1.8.1-rc.1/`
+- Bootstrap: `BOOTSTRAP.md`
+- Latest manifest: `latest.json`
+- Current release: `releases/1.8.1-rc.1/`
 
 ## Recovery priority
 
@@ -29,4 +29,4 @@ Current release: **1.8.1-rc.1**
 6. `references/platform-optimization-v1.6.md`
 7. `references/plugin-architecture.md`
 
-The full source package contains additional references and implementation files; this GitHub mirror is intentionally the minimum reliable recovery core.
+Technical ChatGPT Skill id remains `anything-to-explainer` for backward compatibility; product/repository name is **NarrationFlow**.
